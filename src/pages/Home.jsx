@@ -1,6 +1,6 @@
-import { Box, Flex, SimpleGrid } from "@chakra-ui/react";
-import { FcPaid, FcDepartment } from 'react-icons/fc';
-import { Link } from 'react-router-dom';
+import { Flex, SimpleGrid } from "@chakra-ui/react";
+import { FcPaid, FcDepartment } from "react-icons/fc";
+import { Link } from "react-router-dom";
 
 export function Home() {
   return (
@@ -34,5 +34,5 @@ export function Home() {
         </Flex>
       </Link>
     </SimpleGrid>
-  )
+  );
 }

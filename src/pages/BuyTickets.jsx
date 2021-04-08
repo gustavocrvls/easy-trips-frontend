@@ -24,7 +24,6 @@ import {
   useToast,
 } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
-import { FaArrowRight } from "react-icons/fa";
 import { useHistory } from "react-router";
 import api from "../services/api";
 import InputMask from "react-input-mask";
@@ -108,7 +107,7 @@ export function BuyTickets() {
       goingDate,
       backDate,
 
-      paiment
+      paiment,
     });
 
     toast({

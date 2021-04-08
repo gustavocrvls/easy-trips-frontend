@@ -20,14 +20,11 @@ import {
   Select,
   SimpleGrid,
   Stack,
-  Switch,
   useToast,
 } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
-import { FaArrowRight } from "react-icons/fa";
 import { useHistory } from "react-router";
 import api from "../services/api";
-import { mask } from "../utils/masks";
 import InputMask from "react-input-mask";
 
 export function Accommodation() {
@@ -44,10 +41,7 @@ export function Accommodation() {
 
   const [goingDate, setGoingDate] = useState(null);
   const [backDate, setBackDate] = useState(null);
-
-  const [email, setEmail] = useState("");
-  const [card, setCard] = useState("");
-  const [plots, sePlots] = useState(1);
+  
   const [paiment, setPaiment] = useState({
     name: "",
     card: {
